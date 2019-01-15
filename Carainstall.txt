@@ -1,0 +1,30 @@
+Author : Mr.Xcyber
+On Wa  : 083194138875
+Ig     : mhdefrizal700
+My TEAM: explosionSquadCyber
+
+Cara Install
+ketik 
+
+-pkg update && pkg upgrade
+ (enter)
+
+-pkg install git
+ (enter)
+
+-pkg install ruby
+ (enter) 
+
+-git clone https://github.com/MrXcyber/ULTRA.git
+ (enter)
+
+-cd ULTRA
+ (enter)
+
+-chmod +x ultra.sh
+  (enter)
+
+- ./ultra.sh
+  (enter)
+
+Enjoy ^_^
