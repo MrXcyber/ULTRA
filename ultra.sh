@@ -24,12 +24,12 @@ echo " "
 echo "[01]Main Game Termux"
 echo "[02]Browsing Di Termux"
 echo "[03]Spam Wa Bukalapak"
-echo "[04]Lite Ddos"
+echo "[04]Lite SPAM"
 echo "[05]Script Deface Creator"
-echo "[06]Bot Komen Fb"
+echo "[06]SPAM SMS"
 echo "[07]SQLMAP"
-echo "[08]Phising Game"
-echo "[09]Spam Chat Fb"
+echo "[08]Osif Facebook"
+echo "[09]Hack Instagram"
 echo "[10]Hash Buster"
 echo "[00]Keluar"
 echo " "
@@ -80,11 +80,10 @@ python2 create.py
 echo "Tunggu Cok.."
 sleep 3
 pkg install git -y
-pkg install python2 -y
-pip2 install mechanize
-git clone https://github.com/Senitopeng/Botkomena.git
-cd Botkomena
-python2 botkomena.py
+git clone https://github.com/amsitlab/smsid-java
+cd smsid-java
+chmod +x ./install
+./install
 ;;
 07)
 echo "Tunggu Cok.."
@@ -100,28 +99,28 @@ echo "Tunggu Cok.."
 sleep 3
 pkg install python2 -y
 pkg install git -y
-pkg install php -y
-git clone https://github.com/Senitopeng/PhisingGame.git
-cd PhisingGame
-python2 phising.py
+git clone https://github.com/CiKu370/OSIF.git
+pip2 install requests mechanize
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
 ;;
 09)
 echo "Tunggu cok.."
 sleep 3
 apt install git -y
 apt install python2 -y
-pip2 install --upgrade pip
-git clone https://github.com/Senitopeng/Spamchat.git
-cd Spamchat
-pip2 install -r requirements.txt
-python2 messenger.py
+git clone https://github.com/Senitopeng/instabot.git
+cd instabot
+chmod +x instabot
+./instabot
 ;;
 10)
 echo "Tunggu Cok.."
 sleep 3
 apt install git -y
 apt install python2 -y
-git clone https://github.com/UltimateHackers/Hash-Buster -y
+git clone https://github.com/UltimateHackers/Hash-Buster
 cd Hash-Buster
 python2 hash.py
 ;;
